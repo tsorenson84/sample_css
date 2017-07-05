@@ -5,7 +5,10 @@
     <meta charset="utf-8">
     <style>
       /* Global Styles */
-
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
       h1 {
         font-size: 7vw;
         margin-top: 0;
@@ -55,21 +58,14 @@
         max-width: 960px;
         overflow: hidden;
       }
-      .bio-wrapper:after {
-        visibility: hidden;
-        display: block;
-        font-size: 0;
-        content: " ";
-        clear: both;
-        height: 0;
-      }
       .bio-box {
         border: 1px solid black;
+        border-color: black black red;
         box-sizing: border-box;
         float: left;
         font-size: 1rem;
         margin: 40px 1% 0;
-        padding: 2%;
+        padding: 0 2% 2%;
         width: 23%;
       }
       .bio-box h3 {
@@ -83,6 +79,7 @@
       }
       .bio-copy {
         font-size: 1em;
+        line-height: 1.5;
       }
       .bio-copy a {
         color: green;
@@ -112,7 +109,10 @@
         <a href="http://twitter.com/mhartl" class="social-link">Tw</a>
         <div class="bio-copy">
           <p>
-            Known for his dazzling charm, rapier wit, and unrivaled humility, Michael is the creator fo the <a href="http://railstutorial.org/">Ruby on Rails Tutorial</a> and principle author of the <a href="http://learnenough.com/">Learn Enough to Be Dangerous</a> introductory sequence. Michael is also notorious as the founder of <a href="http://tauday.com/"> Tau Day</a> and author of <a href="http://tauday.com/tau-manifesto"><em>The Tau Manifesto</em></a>, but rumors that he's secretly a supervillain are slightly exaggerated.
+            Known for his dazzling charm, rapier wit, and unrivaled humility, Michael is the creator fo the <a href="http://railstutorial.org/">Ruby on Rails Tutorial</a> and principle author of the <a href="http://learnenough.com/">Learn Enough to Be Dangerous</a> introductory sequence.
+          </p>
+          <p>
+            Michael is also notorious as the founder of <a href="http://tauday.com/"> Tau Day</a> and author of <a href="http://tauday.com/tau-manifesto"><em>The Tau Manifesto</em></a>, but rumors that he's secretly a supervillain are slightly exaggerated.
           </p>
         </div>
       </div>
@@ -146,6 +146,10 @@
     </div>
     <p>
       Learn Enough to Be Dangerous is a leader in the movement to teach the world <em>technical sophistication</em>, which includes both "hard skills" like coding, command lines, and version control, and "soft skills" like guessing keyboard shortcuts, Googling error messages, and knowing when to just reboot the darn thing.
+    </p>
+    <p>
+      We believe there are <strong>at least a billion people</strong> who can benefit from learning technical sophistication, probably more. To join our movement,
+      <a href="https://learnenough.com/#email_list">sign up for our officail email list</a> now.
     </p>
     <h3>Background</h3>
     <p>
